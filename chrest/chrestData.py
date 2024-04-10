@@ -4,8 +4,8 @@ import sys, shutil
 import numpy as np
 import h5py
 
-from xdmfGenerator import XdmfGenerator
-from supportPaths import expand_path
+from chrest.xdmfGenerator import XdmfGenerator
+from chrest.supportPaths import expand_path
 
 
 class ChrestData:

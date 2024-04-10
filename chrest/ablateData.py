@@ -6,13 +6,13 @@ import csv
 import numpy as np
 import h5py
 
-from chrestData import ChrestData
-from supportPaths import expand_path
+from chrest.chrestData import ChrestData
+from chrest.supportPaths import expand_path
 from scipy.spatial import KDTree
 from scipy.interpolate import griddata
-import interpolate 
+import chrest.interpolate
 from enum import Enum
-from xdmfGenerator import XdmfGenerator
+from chrest.xdmfGenerator import XdmfGenerator
 
 # class syntax
 class FieldType(Enum):
